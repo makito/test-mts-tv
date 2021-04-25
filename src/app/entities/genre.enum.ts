@@ -1,0 +1,15 @@
+export enum GenreName {
+  Federal = 'Федеральные',
+  Hobby = 'Хобби и досуг',
+  Child = 'Детские',
+  Music = 'Музыка',
+  Educationrl = 'Образовательные',
+  Hd = 'HD каналы',
+  Leisure = 'Досуг',
+  Sport = 'Спортивные',
+  Cinema = 'Кино и сериалы',
+  hd4k = '4K каналы',
+  New = 'Новые каналы',
+  News = 'Новостные',
+  Cognitive = 'Познавательные',
+}

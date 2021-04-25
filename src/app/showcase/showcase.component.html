@@ -1,0 +1,8 @@
+<div class="count">{{ listChannels?.total }} каналов</div>
+
+<div class="wrapper">
+  <app-channel-item
+    *ngFor="let channel of channels; trackBy: trackByFn"
+    [data]="channel"
+  ></app-channel-item>
+</div>

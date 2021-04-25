@@ -1,0 +1,20 @@
+.item {
+  width: 160px;
+  height: 96px;
+  display: block;
+  border-radius: 10px;
+  margin-left: 16px;
+  margin-top: 23px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    border: 2px solid #ba9d5a;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 50px rgba(156, 173, 195, 0.3);
+  }
+}

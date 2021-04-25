@@ -1,0 +1,16 @@
+:host {
+  display: flex;
+  width: 100%;
+  color: #fff;
+}
+
+.tabs-wrapper {
+  flex: 1;
+  display: flex;
+}
+
+.filter-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,8 @@
+<div class="tabs-wrapper">
+  <app-tab
+    *ngFor="let item of sections; trackBy: trackByFn"
+    [data]="item"
+    (click)="onTabSelect(item)"
+  ></app-tab>
+</div>
+<div class="filter-wrapper">фильтры</div>
